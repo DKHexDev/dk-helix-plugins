@@ -1,6 +1,6 @@
 AddCSLuaFile()
 ENT.Type = "anim"
-ENT.PrintName = "Quete NPC"
+ENT.PrintName = "Quests NPC"
 ENT.Category = "HL2 RP"
 ENT.Spawnable = true
 ENT.AdminOnly = true
