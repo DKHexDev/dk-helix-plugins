@@ -86,12 +86,6 @@ function PANEL:SetCharacter(ent)
 	if table.Count(ent:GetNetVar("quests", {})) > 0 then
 		if not (table.HasValue(LocalPlayer():GetCharacter():GetData("finishquests", {}), check) or table.HasValue(LocalPlayer():GetCharacter():GetData("quests", {}), check))then
 			self:AddDialogueOption("Do you have work for me ?", function()
-				--if LocalPlayer():GetCharacter():GetData("quests", {})  then
-				--	local alreadyQuest = {"J'ai rien à te confier.", "Je n'ai pas de travail pour vous en ce moment.", "Non."}
-				--	ix.gui.dialogue:Say(table.Random(alreadyQuest))
-
-				--	return
-				--end
 
 				local quests = ent:GetNetVar("quests", {})
 
