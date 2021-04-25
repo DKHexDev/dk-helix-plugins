@@ -328,4 +328,4 @@ if(CLIENT) then
 	vgui.Register("ixDetailsQuest", PANEL, "DFrame")
 
 
-end -- Fin de la condition "CLIENT".
+end
